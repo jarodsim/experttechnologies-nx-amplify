@@ -1,5 +1,6 @@
+'use client';
+
 import { useRouter } from 'next/navigation';
-import styles from './page.module.scss';
 
 export default function Index() {
   const navigate = useRouter();
